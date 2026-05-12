@@ -24,7 +24,7 @@ def temporizador_com_shutdown():
 
         while segundos > 0:
             mins, secs = divmod(segundos, 60)
-            timer = f"{mins:02d}: {secs02d}"
+            timer = f"{mins:02d}: {secs:02d}"
 
             # Bip nos 10 segundos finais
             bip = "\a" if 0 < segundos < 10 else ""
