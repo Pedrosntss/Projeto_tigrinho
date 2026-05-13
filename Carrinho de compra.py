@@ -17,8 +17,6 @@ def criar_janela_e_carrinho():
         entrada_item = tk.Entry(janela, font=("Arial", 12))
         entrada_item.pack(pady=10)
 
-        if entrada_item == 'total':
-
     carrinho.append(entrada_item)
 
 
